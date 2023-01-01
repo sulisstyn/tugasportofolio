@@ -1,0 +1,149 @@
+body {
+	text-align: center;
+	background-color: #dda288;
+	background-size: cover;
+	width: 100%;
+	font: initial;
+	margin: 0 auto;
+	background-attachment: fixed;
+}
+
+.header {
+	font-size: 40px;
+	width: 90%;
+	margin: auto;
+	height: 85px;
+	line-height: 90px;
+	color: white;
+	margin-bottom: 50px;
+}
+
+.menu {
+	background: #73675e;
+	height: 50px;
+	line-height: 50px;
+	position: left;
+	width: 85%;
+	margin: 10px auto;
+	padding: 0 auto;
+	border-radius: 15px;
+}
+
+.menu_ul {
+	text-align: center;
+	list-style: none;
+}
+
+.menu ul li a {
+	float: left;
+	width: 150px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+.menu ul li a:hover {
+	background-color: #5a4e4d;
+}
+
+.grid img {
+	position: left;
+	margin: 0 auto;
+	width: 250px;
+	border-radius: 50%;
+	border: 2px solid white;
+	display: flex;
+}
+
+.grid h2{
+	color: white;
+	display: block;
+	float: center;
+	margin-top: 50px;
+	align-self: center;
+	display: flex;
+}
+
+.content {
+	position: relative;
+	width: 90%;
+	margin: 0 auto;
+	color: white;
+	height: 260px;
+}
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  color: white;
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.header2 {
+	font-size: 25px;
+	color: white;
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  margin: 20px;
+  margin-top: 15px;
+}
+
+.grid-container img {
+	position: center;
+	margin: 0 auto;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	border: 2px solid white;
+	display: flex;
+}
+
+.grid {
+	margin-top: 250px;
+	font-size: 30px;
+	width: 50%;
+	margin: 20px;
+}
+
+.content-grid {
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+}
+
+.border {
+	margin-top: 1pc;
+	padding-bottom: 1pc;
+	padding-left: 2pc;
+	padding-right: 2pc;
+}
+
+.content h1 {
+	margin: 0 auto;
+	font-size: 50px;
+	display: flex;
+	text-align: center;
+}
+
+.border h2 {
+	margin-left: 270px;
+	font-size: 50px;
+}
+
+
+footer {
+	background: #73675e;
+	width: 85%;
+	text-align: center;
+	height: 65%;
+	margin: auto;
+	color: white;
+	border-radius: 15px;
+}
